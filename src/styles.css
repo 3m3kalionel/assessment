@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  word-break: break-word;
+}
+
+.auto-complete {
+  position: relative;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 400px;
+}
+
+.form-control {
+  margin-top: 10px;
+  width: 50%;
+  height: 50px;
+  padding: 8px;
+}
+
+.search-results {
+  position: absolute;
+  margin-top: 16px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  left: 0;
+  right: 0;
+}
+
+.search-result-container {
+  cursor: pointer;
+}
+
+.no-result-text {
+  padding: 4px 12px;
+  height: 100%;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+.search-result {
+  display: flex;
+  cursor: pointer;
+}
+
+.result-text {
+  padding-left: 0.5rem;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+h4 {
+  font-size: 14px;
+  margin-left: 8px;
+  font-weight: normal;
+}
+
+.result-text {
+  margin: 12px 2px;
+  text-align: left;
+}
+
+.result-text span .styled-matching-text {
+  font-weight: 700;
+  background: #ade1e6;
+}
+
+.searchmatch {
+  background: #ade1e6;
+  font-weight: bold;
+}
+
+.description {
+  word-break: break-all;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+description p {
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
