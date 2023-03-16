@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+	height: 100vh;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -20,7 +24,9 @@
   margin-top: 10px;
   width: 50%;
   height: 50px;
-  padding: 8px;
+	padding: 8px;
+	border-radius: 28px;
+	border: 2px solid darkgrey;
 }
 
 .search-results {
@@ -48,6 +54,15 @@ h4 {
 .search-result {
   display: flex;
   cursor: pointer;
+}
+
+.search-result:hover {
+	background: #f9f9f9;
+}
+
+.search-result {
+	background-color: #f2f2f2;
+	margin-bottom: 4px;
 }
 
 .result-text {

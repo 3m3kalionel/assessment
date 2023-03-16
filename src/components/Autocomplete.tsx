@@ -83,6 +83,9 @@ const AutoComplete = () => {
                     className="styled-matching-text"
                   />
                   <div className="description">
+										{/* commented because the text does not wrap onto another line.
+										I also highlighted matching strings here through the span tags 
+										that are returned from wikipedia's api. Uncomment to try it out */}
                     {/* <p
                       dangerouslySetInnerHTML={{ __html: snippet }}
                     ></p> */}
